@@ -1,5 +1,23 @@
+:root {
+  --primary-color: #33d6ff;
+  --success-color: #6dd60a;
+}
+
 body {
   font-family: "IBM Plex Sans Arabic", sans-serif;
+  background-color: #e3e3e3;
+}
+body .text-primary {
+  color: var(--primary-color) !important;
+}
+body .text-success {
+  color: var(--success-color) !important;
+}
+body .bg-primary {
+  background-color: var(--primary-color) !important;
+}
+body .bg-success {
+  background-color: var(--success-color) !important;
 }
 body h1,
 body h2,
@@ -10,25 +28,16 @@ body h3 {
 body p {
   letter-spacing: 1px;
 }
+body button {
+  border-radius: 16px;
+}
 
-.hero-content {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/hero2.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/hero2.jpg");
-  background-position: center;
+.hero {
+  height: 90vh;
+}
+.hero .hero-img {
+  background: url("../img/hero1.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-.hero-content .nav-link {
-  font-weight: 600;
-}
-.hero-content .hero-heading {
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #5e5e5e;
-  }
+  background-position: center;
+  height: 90vh;
 }
