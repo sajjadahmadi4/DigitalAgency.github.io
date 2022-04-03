@@ -1,0 +1,29 @@
+.about-us{
+    background: url('../img/about\ bg.svg');
+    background-position: center;
+    background-size: cover;
+
+    .companies{
+        border-radius: 16px;
+        background-color: #181818;
+        position: relative;
+        top: -40px;
+    }
+
+    .about-img{
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border: 3px solid #57cf57;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .about-img{
+        border-radius: 10px !important;
+        border: none !important;
+    }
+}

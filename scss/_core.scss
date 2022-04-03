@@ -1,26 +1,7 @@
-:root{
-    --primary-color: #33d6ff;
-    --success-color: #6dd60a;
-}
 
 body{
     font-family: "IBM Plex Sans Arabic", sans-serif;
     background-color: #e3e3e3;
-
-    .text-primary{
-        color: var(--primary-color) !important;
-    }
-    .text-success{
-        color: var(--success-color) !important;
-    }
-    .bg-primary{
-        background-color: var(--primary-color) !important;
-    }
-    .bg-success{
-        background-color: var(--success-color) !important;
-    }
-
-
 
     h1,
     h2,
