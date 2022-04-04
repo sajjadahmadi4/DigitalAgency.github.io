@@ -58,3 +58,13 @@ body button {
   position: relative;
   top: -40px;
 }
+
+.testimonials {
+  background: url("../img/testimonial.svg");
+  background-size: cover;
+  background-position: center;
+}
+.testimonials .text-justify {
+  text-align: justify;
+  padding: 0 4rem !important;
+}
